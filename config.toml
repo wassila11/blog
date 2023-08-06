@@ -1,3 +1,37 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+# Basic Configuration
+baseURL = "https://wassila-chtioui.com"
+languageCode = "en-us"
+title = "My Awesome Blog"
+theme = "hello-friend"
+enableRobotsTXT = true
+
+# Menu and Social Links
+[[menu.main]]
+  name = "Home"
+  url = "content/home/index.md"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "content/home.about.md"
+  weight = 2
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
+
+[[params.social]]
+  icon = "github"
+  name = "GitHub"
+  url = "https://github.com/wassila11"
+
+[[params.social]]
+  icon = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/your-twitter-handle"
+
+# Pagination
+paginate = 5
+
+
